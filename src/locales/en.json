@@ -1,6 +1,43 @@
 {
-  "work-experiance": "Work Experiance",
-  "education": "Education",
-  "server-implementation": "server implementation",
-  "docker": "docker"
+  "education": {
+    "education": "Education",
+    "university": "BSc Media Informatics and Visual Computing - TU Vienna",
+    "high-school": "Technical Secondary School with specialization in Computer Science",
+    "middle-school": "Middle School in Sand in Taufers"
+  },
+  "work-experiance": {
+    "work-experiance": "Work Experiance",
+    "internship": "Internship",
+    "summer": "Summer",
+    "metgis": {
+      "serverimplementation": "Server implementation (Rust/Java/Node.js/Python)",
+      "apis": "Implementation of REST and gRPC APIs",
+      "web": "Realization of Websites with Vue.js/HTML/CSS/JavaScript",
+      "geospatial-data": "Processing and creation of geospatial data",
+      "docker": "Creation of Dockerfile/Compose files; Deploying on Servers",
+      "automation": "Workflow Automation",
+      "database": "PostgreSQL/PostGIS, MongoDB"
+    },
+    "elektrisola": {
+      "java": "Java: Server/Client Application with REST",
+      "web": "Vue.js/HTML/CSS/JavaScript",
+      "database": "SQL, IBM AS400",
+      "server-maintenance": "Sever Maintenance/Docker",
+      "automation": "Automation using Java Auto Tasks and Cron Jobs"
+    },
+    "dengg": {
+      "engineer": "Engineer",
+      "acad-civil": "ACAD-Civil: Terrain modeling for Power plant projects in Ukraine",
+      "autocad": "AutoCAD"
+    },
+    "contech": {
+      "internet-agency": "Internet Agency",
+      "website-maintenance": "Website maintenance",
+      "photoshop": "Adobe Photoshop"
+    },
+    "kerer": {
+      "network-maintenance": "Network maintenance",
+      "server-maintenance": "Server maintenance"
+    }
+  }
 }
