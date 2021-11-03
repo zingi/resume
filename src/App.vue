@@ -2,6 +2,7 @@
   <div id="app-container">
     <headline></headline>
     <locale-changer></locale-changer>
+    <general-info></general-info>
     <work-experiance></work-experiance>
     <education></education>
   </div>
@@ -10,6 +11,7 @@
 
 <script>
 import Education from './components/Education.vue'
+import GeneralInfo from './components/GeneralInfo.vue'
 import Headline from './components/Headline.vue'
 import LocaleChanger from './components/LocaleChanger.vue'
 import WorkExperiance from './components/WorkExperiance.vue'
@@ -20,10 +22,10 @@ export default {
     Headline,
     WorkExperiance,
     Education,
-    LocaleChanger
+    LocaleChanger,
+    GeneralInfo
   },
-  setup () {
-  }
+  setup () {}
 }
 </script>
 
@@ -53,13 +55,25 @@ button {
   max-width: 1000px;
 }
 
+#general-info-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  margin-top: 2rem;
+}
+
+#general-info-container .key {
+  font-weight: 600;
+}
+
 h1 {
   font-size: 3rem;
+  font-weight: 600;
   word-break: break-all;
 }
 
 h2 {
   margin-top: 2rem;
+  font-weight: 600;
 }
 
 .timelist-element {
