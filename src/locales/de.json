@@ -1,4 +1,17 @@
 {
+  "general-info": {
+    "nationality": "Staatsangehörigkeit",
+    "italian": "Italienisch",
+    "current-residence": "Aktueller Wohnsitz",
+    "austria": "Österreich/Wien",
+    "age": "Alter",
+    "native-language": "Muttersprache",
+    "german": "Deutsch",
+    "other-languages": "Weitere Sprachen",
+    "english-italian": "Englisch sehr gut, Italienisch ausbaufähig",
+    "driving-license": "Führerschein",
+    "class-b": "Klasse B"
+  },
   "education": {
     "education": "Ausbildung",
     "university": "BSc Medien Informatik und Visual Computing - TU Vienna",

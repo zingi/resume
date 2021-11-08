@@ -72,7 +72,7 @@ h1 {
 }
 
 h2 {
-  margin-top: 2rem;
+  margin-top: 4rem;
   font-weight: 600;
 }
 

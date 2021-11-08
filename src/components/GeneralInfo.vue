@@ -1,13 +1,22 @@
 <template>
   <section id="general-info-container">
-    <div class="key">Nationality</div>
-    <div>Italian</div>
+    <div class="key">{{ t('general-info.nationality') }}</div>
+    <div>{{ t('general-info.italian') }}</div>
 
-    <div class="key">Current Residence</div>
-    <div>Austria/Vienna</div>
+    <div class="key">{{ t('general-info.current-residence') }}</div>
+    <div>{{ t('general-info.austria') }}</div>
 
-    <div class="key">Age</div>
+    <div class="key">{{ t('general-info.age') }}</div>
     <div>{{ currentAge }}</div>
+
+    <div class="key">{{ t('general-info.native-language') }}</div>
+    <div>{{ t('general-info.german') }}</div>
+
+    <div class="key">{{ t('general-info.other-languages') }}</div>
+    <div>{{ t('general-info.english-italian') }}</div>
+
+    <div class="key">{{ t('general-info.driving-license') }}</div>
+    <div>{{ t('general-info.class-b') }}</div>
   </section>
 </template>
 
