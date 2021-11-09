@@ -52,7 +52,7 @@ export default {
             t('work-experiance.elektrisola.java'),
             t('work-experiance.elektrisola.web'),
             t('work-experiance.elektrisola.database'),
-            t('work-experiance.elektrisola.server-mainenance'),
+            t('work-experiance.elektrisola.server-maintenance'),
             t('work-experiance.elektrisola.automation')
           ]
         },

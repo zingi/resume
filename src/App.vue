@@ -90,6 +90,15 @@ h2 {
   h1 {
     font-size: 2rem;
   }
+
+  #general-info-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #general-info-container div:nth-child(2n+1):not(:first-child) {
+    margin-top: 0.5rem;
+  }
 }
 
 /* system dark mode */
