@@ -5,8 +5,8 @@
     <general-info></general-info>
     <work-experiance></work-experiance>
     <education></education>
+    <technologies></technologies>
   </div>
-
 </template>
 
 <script>
@@ -14,6 +14,7 @@ import Education from './components/Education.vue'
 import GeneralInfo from './components/GeneralInfo.vue'
 import Headline from './components/Headline.vue'
 import LocaleChanger from './components/LocaleChanger.vue'
+import Technologies from './components/Technologies.vue'
 import WorkExperiance from './components/WorkExperiance.vue'
 
 export default {
@@ -23,7 +24,8 @@ export default {
     WorkExperiance,
     Education,
     LocaleChanger,
-    GeneralInfo
+    GeneralInfo,
+    Technologies
   },
   setup () {}
 }

@@ -52,5 +52,6 @@
       "network-maintenance": "Network maintenance",
       "server-maintenance": "Server maintenance"
     }
-  }
+  },
+  "technologies": "My Technologies"
 }
