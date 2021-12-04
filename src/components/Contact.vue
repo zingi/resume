@@ -1,6 +1,6 @@
 <template>
   <section id="contact-container">
-    <h2>Contact</h2>
+    <h2>{{ t('contact') }}</h2>
     <p>{{ buttonDesc }}<button id="m-button">{{ buttonText }}</button></p>
 
     <div id="links">
@@ -20,6 +20,7 @@
 
 <script>
 import { onMounted } from '@vue/runtime-core'
+import { useI18n } from 'vue-i18n'
 export default {
   setup () {
     onMounted(() => {
@@ -41,7 +42,8 @@ export default {
     // text before m button
     const buttonDesc = Buffer.from(new Uint8Array([69, 45, 77, 97, 105, 108, 58, 32])).toString('ascii')
 
-    return { buttonText, buttonDesc }
+    const { t } = useI18n()
+    return { t, buttonText, buttonDesc }
   }
 }
 </script>
