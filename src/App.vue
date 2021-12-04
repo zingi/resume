@@ -78,6 +78,13 @@ h2 {
   font-weight: 600;
 }
 
+#hire-me-container {
+  margin-top: 2rem;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 5px 20px 5px 20px;
+}
+
 .timelist-element {
   margin-top: 2rem;
   border-radius: 3px;
@@ -86,6 +93,24 @@ h2 {
 
 .timelist-element .time-period,button {
   color: rgb(150, 150, 150);
+}
+
+.animated-gradient-background {
+  color: rgba(255,255,255,0.9);
+  background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+  background-size: 600%;
+  animation: background-animation 30s linear infinite;
+}
+@keyframes background-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media only screen and (max-width: 768px) {

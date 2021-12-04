@@ -1,6 +1,8 @@
 <template>
   <h2>{{ t('work-experience.work-experience')}}</h2>
 
+  <hire-me></hire-me>
+
   <timeline-list-element v-for="(entry,index) in listEntries" :key="index"
     :title="entry.title"
     :timePeriod="entry.timePeriod"
@@ -12,9 +14,10 @@
 import { computed } from '@vue/reactivity'
 import { useI18n } from 'vue-i18n'
 import TimelineListElement from './TimelineListElement.vue'
+import HireMe from './HireMe.vue'
 
 export default {
-  components: { TimelineListElement },
+  components: { TimelineListElement, HireMe },
   name: 'WorkExperiance',
   setup () {
     const { t } = useI18n()
