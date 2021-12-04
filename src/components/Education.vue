@@ -26,11 +26,11 @@ export default {
         {
           title: t('education.high-school'),
           timePeriod: ['2010 -> 2015']
-        },
-        {
-          title: t('education.middle-school'),
-          timePeriod: ['2007 -> 2010']
         }
+        // {
+        //   title: t('education.middle-school'),
+        //   timePeriod: ['2007 -> 2010']
+        // }
       ]
     })
 

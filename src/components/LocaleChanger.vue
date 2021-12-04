@@ -1,6 +1,6 @@
 <template>
   <section class="locales">
-    <button v-for="(lang, index) in locales" :key="index" :class="{ active: lang === activeLocal }" @click="setLocale(lang)">
+    <button v-for="(lang, index) in locales" :key="index" :class="[{ active: lang === activeLocal }, locale-button]" @click="setLocale(lang)">
       {{lang}}
     </button>
   </section>

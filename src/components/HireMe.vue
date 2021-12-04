@@ -1,8 +1,10 @@
 <template>
-  <section id="hire-me-container" class="animated-gradient-background">
-    <h3>{{ t('hire-me') }}</h3>
-    <p>{{ t('i-am-currently-in-paternity') }}</p>
-  </section>
+  <a href="#contact-container">
+    <section id="hire-me-container" class="animated-gradient-background">
+      <h3>{{ t('hire-me') }}</h3>
+      <p>{{ t('i-am-currently-in-paternity') }}</p>
+    </section>
+  </a>
 </template>
 
 <script>

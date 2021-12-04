@@ -6,10 +6,12 @@
     <work-experiance></work-experiance>
     <education></education>
     <technologies></technologies>
+    <contact></contact>
   </div>
 </template>
 
 <script>
+import Contact from './components/Contact.vue'
 import Education from './components/Education.vue'
 import GeneralInfo from './components/GeneralInfo.vue'
 import Headline from './components/Headline.vue'
@@ -25,7 +27,8 @@ export default {
     Education,
     LocaleChanger,
     GeneralInfo,
-    Technologies
+    Technologies,
+    Contact
   },
   setup () {}
 }
@@ -91,8 +94,31 @@ h2 {
   padding: 5px;
 }
 
-.timelist-element .time-period,button {
+.timelist-element .time-period,.locale-button {
   color: rgb(150, 150, 150);
+}
+
+#contact-container {
+  margin-bottom: 10rem;
+}
+
+#m-button {
+  margin-top: 2rem;
+  text-decoration: underline;
+}
+
+#links {
+  display: grid;
+  width: max-content;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  margin: 2rem 0 0 0;
+  column-gap: 1rem;
+}
+
+#links img {
+  height: 2rem;
 }
 
 .animated-gradient-background {
@@ -135,9 +161,18 @@ h2 {
     color: blanchedalmond;
   }
 
-  .timelist-element .time-period,button {
+  .timelist-element .time-period,.locale-button {
     color: blanchedalmond;
     opacity: 0.6;
+  }
+
+  .logo {
+    filter: invert(86%) sepia(5%) saturate(1826%) hue-rotate(332deg) brightness(111%) contrast(101%);
+  }
+
+  #linkedin-logo {
+    background: blanchedalmond;
+    border-radius: 5px;
   }
 }
 
