@@ -35,10 +35,10 @@ export default {
             t('work-experience.metgis.serverimplementation'),
             t('work-experience.metgis.apis'),
             t('work-experience.metgis.web'),
-            t('work-experience.metgis.geospatial-data'),
             t('work-experience.metgis.docker'),
             t('work-experience.metgis.automation'),
-            t('work-experience.metgis.database')
+            t('work-experience.metgis.database'),
+            t('work-experience.metgis.geospatial-data')
           ]
         },
         {

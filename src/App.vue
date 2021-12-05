@@ -121,6 +121,13 @@ h2 {
   height: 2rem;
 }
 
+#logo-canvas {
+  display: inline-block;
+  margin-top: 2rem;
+  background: blanchedalmond;
+  border-radius: 3px;
+}
+
 .animated-gradient-background {
   color: rgba(255,255,255,0.9);
   background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);

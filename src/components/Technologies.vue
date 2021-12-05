@@ -27,9 +27,9 @@ export default {
       const world = engine.world
 
       // set canvas width to screen width, if screen is smaller than 800
-      const width = viewportWidth > 800 ? 800 : viewportWidth - 10
+      const width = viewportWidth > 800 ? 800 : viewportWidth - 15
       // set height to a fraction of width
-      const height = width * 0.75
+      const height = width * 0.6
 
       // get html element to insert canvas
       const canvas = document.querySelector('#logo-canvas')
@@ -100,8 +100,8 @@ export default {
       const circleRadius = rectWidth / 2
 
       // x and y scale of texture
-      const xScale = rectWidth * 0.01
-      const yScale = rectHeight * 0.01
+      const xScale = rectWidth * 0.009
+      const yScale = rectHeight * 0.009
 
       // define rectangular icons
       const rectangularIcons = [
@@ -121,8 +121,17 @@ export default {
         { texture: require('../assets/icons/Threema.png'), xScale, yScale },
         { texture: require('../assets/icons/XCEL.png'), xScale, yScale },
         { texture: require('../assets/icons/clion.png'), xScale, yScale },
-        { texture: require('../assets/icons/idea.png'), xScale, yScale }
-
+        { texture: require('../assets/icons/idea.png'), xScale, yScale },
+        { texture: require('../assets/icons/Java.png'), xScale, yScale },
+        { texture: require('../assets/icons/Discord.png'), xScale, yScale },
+        { texture: require('../assets/icons/Element.png'), xScale, yScale },
+        { texture: require('../assets/icons/Texpad.png'), xScale, yScale },
+        { texture: require('../assets/icons/PostgreSQL.png'), xScale, yScale },
+        { texture: require('../assets/icons/Typescript.png'), xScale, yScale },
+        { texture: require('../assets/icons/Javascript.png'), xScale, yScale },
+        { texture: require('../assets/icons/GitLab.png'), xScale, yScale },
+        { texture: require('../assets/icons/VueJS.png'), xScale, yScale },
+        { texture: require('../assets/icons/Trello.png'), xScale, yScale }
       ]
 
       // define circular icons
@@ -132,7 +141,19 @@ export default {
         { texture: require('../assets/icons/Docker.png'), xScale, yScale },
         { texture: require('../assets/icons/GitKraken.png'), xScale, yScale },
         { texture: require('../assets/icons/Skype.png'), xScale, yScale },
-        { texture: require('../assets/icons/qgis.png'), xScale, yScale }
+        { texture: require('../assets/icons/qgis.png'), xScale, yScale },
+        { texture: require('../assets/icons/Rust.png'), xScale, yScale },
+        { texture: require('../assets/icons/Python.png'), xScale, yScale },
+        { texture: require('../assets/icons/NPM.png'), xScale, yScale },
+        { texture: require('../assets/icons/1Blocker.png'), xScale, yScale },
+        { texture: require('../assets/icons/Insomnia.png'), xScale, yScale },
+        { texture: require('../assets/icons/Octave.png'), xScale, yScale },
+        { texture: require('../assets/icons/CARROTweather.png'), xScale, yScale },
+        { texture: require('../assets/icons/Logic_Pro.png'), xScale, yScale },
+        { texture: require('../assets/icons/Deno.png'), xScale, yScale },
+        { texture: require('../assets/icons/SocketIO.png'), xScale, yScale },
+        { texture: require('../assets/icons/GitHub.png'), xScale, yScale },
+        { texture: require('../assets/icons/Jitsi_Meet.png'), xScale, yScale }
       ]
 
       // add recatngular icons to physics world
