@@ -10,17 +10,19 @@
     "other-languages": "Weitere Sprachen",
     "english-italian": "Englisch sehr gut, Italienisch ausbaufähig",
     "driving-license": "Führerschein",
-    "class-b": "Klasse B"
+    "class-b": "Klasse B",
+    "covid-vaccination": "Covid-19 Impfung",
+    "three-shots": "Drei Dosen"
   },
   "education": {
     "education": "Ausbildung",
-    "university": "BSc Medien Informatik und Visual Computing - TU Vienna",
+    "university": "BSc Medieninformatik und Visual Computing - TU Vienna",
     "high-school": "Technologische Fachoberschule mit Fachrichtung Informatik",
     "middle-school": "Mittelschule in Sand in Taufers"
   },
   "work-experience": {
     "work-experience": "Arbeitserfahrung",
-    "internship": "Prakikum",
+    "internship": "Praktikum",
     "summer": "Sommer",
     "metgis": {
       "serverimplementation": "Server Implementierung (Rust/Java/Node.js/Python)",
@@ -39,7 +41,7 @@
       "automation": "Automatisierung mit Java Auto Tasks und Cron Jobs"
     },
     "dengg": {
-      "engineer": "Engineer",
+      "engineer": "Ingenieur",
       "acad-civil": "ACAD-Civil: Geländemodellierung für Kraftwerksprojekte in der Ukraine",
       "autocad": "AutoCAD"
     },

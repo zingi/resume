@@ -42,14 +42,13 @@ export default {
           ]
         },
         {
-          title: 'Elektrisola',
+          title: 'Elektrisola Atesina',
           timePeriod: [
             '2019-07-08 -> 2019-09-06',
-            '2019-07-08 -> 2019-09-06',
             '2019-02-04 -> 2019-02-28',
-          `2018-02-05 -> 2018-02-23 (${t('work-experience.internship')})`,
-          `2017-07-10 -> 2017-09-15 (${t('work-experience.internship')})`
-
+            '2018-07-09 -> 2018-08-31',
+            `2018-02-05 -> 2018-02-23 (${t('work-experience.internship')})`,
+            `2017-07-10 -> 2017-09-15 (${t('work-experience.internship')})`
           ],
           tasks: [
             t('work-experience.elektrisola.java'),

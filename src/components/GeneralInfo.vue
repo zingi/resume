@@ -17,6 +17,9 @@
 
     <div class="key">{{ t('general-info.driving-license') }}</div>
     <div>{{ t('general-info.class-b') }}</div>
+
+    <div class="key">{{ t('general-info.covid-vaccination') }}</div>
+    <div>{{ t('general-info.three-shots') }}</div>
   </section>
 </template>
 

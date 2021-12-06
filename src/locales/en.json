@@ -10,7 +10,9 @@
     "other-languages": "Other Languages",
     "english-italian": "English very good, Italian improvable",
     "driving-license": "Driving license",
-    "class-b": "Class B"
+    "class-b": "Class B",
+    "covid-vaccination": "Covid-19 Vaccination",
+    "three-shots": "Three Shots"
   },
   "education": {
     "education": "Education",
@@ -40,7 +42,7 @@
     },
     "dengg": {
       "engineer": "Engineer",
-      "acad-civil": "ACAD-Civil: Terrain modeling for Power plant projects in Ukraine",
+      "acad-civil": "ACAD-Civil: Terrain modeling for power plant projects in Ukraine",
       "autocad": "AutoCAD"
     },
     "contech": {
